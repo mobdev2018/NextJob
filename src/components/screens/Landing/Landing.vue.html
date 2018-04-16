@@ -1,9 +1,52 @@
-<v-container>
-  <v-layout>
-    <v-flex>
-      <p>Find and hire local services free!</p>
-      <v-text-field label="What do you need?"></v-text-field>
-      <v-text-field label="Post Code?"></v-text-field>
-    </v-flex>
-  </v-layout>
-</v-container>
+<div class="landing-container">
+  <div class="navbar">
+    <div class="navbar-left">
+      <span>NextJob.com</span>
+    </div>
+    <div class="navbar-right">
+      <button class="btn signup-btn d-down-none">Sign up as a Service Provider</button>
+      <button class="btn">Login</button>
+    </div>
+  </div>
+
+  <div class="landing-layout">
+    <div class="input-form">
+      <p class="title">Find and hire local services free!</p>
+      <input type="text" placeholder="What do you need?">
+      <input type="text" placeholder="Post Code?" class="m-t-12">
+      <div class="text-align-right">
+        <button class="btn m-t-24" :style="{width: '100px'}">Continue</button>
+      </div>
+    </div>
+
+    <div class="m-t-60">
+      <p class="fs-20 fw-bold">How it Works?</p>
+      <div class="steps-view">
+        <div class="step">
+          <p class="fw-bold">Step 1</p>
+          <div>
+            Search for you need on this platform
+          </div>
+        </div>
+        <div class="step">
+          <p class="fw-bold">Step 2</p>
+          <div>
+            We will find local services and quotes from them
+          </div>
+        </div>
+        <div class="step">
+          <p class="fw-bold">Step 3</p>
+          <div>
+            You hire the best one!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-view m-t-48">
+    <a href="#" class="social-button"><img src="@/../static/img/facebook.png" class="social-icon"></a>
+    <a href="#" class="social-button m-x-24"><img src="@/../static/img/twitter.png" class="social-icon"></a>
+    <a href="#" class="social-button"><img src="@/../static/img/instagram.png" class="social-icon"></a>
+  </div>
+</div>
