@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import LandingPage from '@/components/screens/Landing/Landing'
+import LandingPage from '@/components/pages/Landing/Landing'
 
 Vue.use(Router)
 
